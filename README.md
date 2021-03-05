@@ -1,9 +1,9 @@
 # Formação React JS
 ## Alura
 
-### [Módulo 1 - Programar com JavaScript Orientado a Objetos]()
-  * JavaScript: Programando a Orientação a Objetos ([Curso](https://cursos.alura.com.br/course/javascritpt-orientacao-objetos) | *doing*)
-  * JavaScript: Interfaces e Herança em Orientação a Objetos ([Curso](https://cursos.alura.com.br/course/javascript-polimorfismo) | *to-do*)
+### [Módulo 1 - Programar com JavaScript Orientado a Objetos](https://github.com/andre6293/Alura-React-JS/tree/main/1%20-%20Programar%20com%20JavaScript%20Orientado%20a%20Objetos)
+  * JavaScript: Programando a Orientação a Objetos ([Curso](https://cursos.alura.com.br/course/javascritpt-orientacao-objetos) | [certificado](https://cursos.alura.com.br/certificate/820480f0-a937-4d69-9f53-15dba3651872))
+  * JavaScript: Interfaces e Herança em Orientação a Objetos ([Curso](https://cursos.alura.com.br/course/javascript-polimorfismo) | *doing*)
 ### [Módulo 2 - Lidar com class components]()
   * React: Entendendo como a biblioteca funciona ([Curso](https://cursos.alura.com.br/course/react-js) | *to-do*)
   * React: Ciclo de vida dos componentes ([Curso](https://cursos.alura.com.br/course/react-ciclo-de-vida) | *to-do*)
