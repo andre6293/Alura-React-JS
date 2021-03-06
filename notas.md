@@ -23,6 +23,8 @@ Para acessá-los deve-se utilizar o nome da classe-mãe em vez da palavra-chave 
 ### Notas adicionais
 * const - variável final, não alterável
 * Para importar classes, métodos e funções de outros arquivos é necessário criar um método. Para isso deve-se usar "npm init" no diretório do projeto
+* É necessário chamar o construtor da classe-mãe dentro das classes que a herdem utilizando *super(args)* dentro do construtor da classe-filha
+* É possível verificar como uma classe foi instanciada usando this.constructor dentro dela. Com esse pensamento é possível evitar que uma super-classe seja instanciada diretamente. Dessa forma ela se torna *praticamente* uma **classe abstrata**
 
 ---
 
