@@ -7,8 +7,11 @@
 * Construtores e estáticos
 
 ## Javascript: Interfaces e Herança em Orientação a Objetos
-A preencher
+* Conhecendo o problema do cliente
+* Herança
+* Classes abstratas
+* Sistema interno
+* Interfaces e Duck Type
 
 ---
 Andre Pinto (mar 21)
-

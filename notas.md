@@ -23,11 +23,16 @@ Para acessá-los deve-se utilizar o nome da classe-mãe em vez da palavra-chave 
 ### Métodos abstratos
 Ao criar métodos que devem ser abstratos em uma *classe abstrata* (não é de fato uma classe abstrata, mas funciona de forma parecida) é interessante lançar uma mensagem de erro dentro do método para o caso de um usuário não sobrescreverem tais métodos nas classes-filhas. Dessa forma evita-se possíveis desvios nas regras de negócio e erros futuros.
 
+### Ducky type
+É um estilo de tipagem em que os métodos e propriedades de um objeto determinam a semântica válida, em vez de sua herança de uma classe particular ou implementação de uma interface explicita. *Quando eu vejo um pássaro que caminha como um pato, nada como um pato e grasna como um pato, eu chamo aquele pássaro de pato.*
+
 ### Notas adicionais
 * const - variável final, não alterável
+* Encapsulamentos são bem fracos em JS
 * Para importar classes, métodos e funções de outros arquivos é necessário criar um método. Para isso deve-se usar "npm init" no diretório do projeto
 * É necessário chamar o construtor da classe-mãe dentro das classes que a herdem utilizando *super(args)* dentro do construtor da classe-filha
 * É possível verificar como uma classe foi instanciada usando this.constructor dentro dela. Com esse pensamento é possível evitar que uma super-classe seja instanciada diretamente. Dessa forma ela se torna *praticamente* uma **classe abstrata**
+* É possível verificar a presença de um método dentro de um objeto utilizando *"nomeDoMetodo/variavel in nomeDoObjeto"* e pra garantir tratar-se concretamente de um método: *"nomeDoObjeto.nomeDoMetodo instanceOf Function"*
 
 ---
 

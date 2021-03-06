@@ -3,9 +3,9 @@
 
 ### [Módulo 1 - Programar com JavaScript Orientado a Objetos](https://github.com/andre6293/Alura-React-JS/tree/main/1%20-%20Programar%20com%20JavaScript%20Orientado%20a%20Objetos)
   * JavaScript: Programando a Orientação a Objetos ([curso](https://cursos.alura.com.br/course/javascritpt-orientacao-objetos) | [certificado](https://cursos.alura.com.br/certificate/820480f0-a937-4d69-9f53-15dba3651872))
-  * JavaScript: Interfaces e Herança em Orientação a Objetos ([curso](https://cursos.alura.com.br/course/javascript-polimorfismo) | *doing*)
+  * JavaScript: Interfaces e Herança em Orientação a Objetos ([curso](https://cursos.alura.com.br/course/javascript-polimorfismo) | [certificado](https://cursos.alura.com.br/certificate/63cc2eff-3c00-432e-bb53-a61d5adcc231))
 ### [Módulo 2 - Lidar com class components]()
-  * React: Entendendo como a biblioteca funciona ([curso](https://cursos.alura.com.br/course/react-js) | *to-do*)
+  * React: Entendendo como a biblioteca funciona ([curso](https://cursos.alura.com.br/course/react-js) | *doing*)
   * React: Ciclo de vida dos componentes ([curso](https://cursos.alura.com.br/course/react-ciclo-de-vida) | *to-do*)
 ### [Módulo 3 - Utilizar uma abordagem moderna]()
   * React:Function Components, uma abordagem moderna ([curso](https://cursos.alura.com.br/course/react-function-components) | *to-do*)

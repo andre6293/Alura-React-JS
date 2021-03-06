@@ -17,13 +17,6 @@ export class Funcionario {
   }
 
   autenticar(senha) {
-    if(this._senha != senha) {
-      throw new Error("Senha inválida.");
-    }
-    return "Sucesso";
-  }
-
-  get senha() {
-    return this._senha;
+    return this._senha == senha;
   }
 }
