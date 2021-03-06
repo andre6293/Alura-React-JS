@@ -1,7 +1,7 @@
 export class Conta {
   constructor(agencia, numero, cliente, saldo=0){
     if(this.constructor == Conta) {
-      throw new Error("A classe-mãe <<Conta>> não deve ser instanciada diretamente");
+      throw new Error("A classe abstrata <<Conta>> não deve ser instanciada diretamente");
     }
 
     this.agencia = agencia;
@@ -17,8 +17,7 @@ export class Conta {
   }
 
   sacar(valor) {
-    let taxa = 1;
-    this._sacar(valor, taxa);
+    throw new Error("Necessário aplicar regra de negócio do método às classes filhas de <<Conta>>");
   }
 
   _sacar(valor, taxa) {

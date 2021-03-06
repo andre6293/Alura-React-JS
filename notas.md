@@ -20,6 +20,9 @@ São considerados *assessores* e não são funções normais. Usam as palavras-c
 ### Atributos estáticos
 Para acessá-los deve-se utilizar o nome da classe-mãe em vez da palavra-chave *super*.
 
+### Métodos abstratos
+Ao criar métodos que devem ser abstratos em uma *classe abstrata* (não é de fato uma classe abstrata, mas funciona de forma parecida) é interessante lançar uma mensagem de erro dentro do método para o caso de um usuário não sobrescreverem tais métodos nas classes-filhas. Dessa forma evita-se possíveis desvios nas regras de negócio e erros futuros.
+
 ### Notas adicionais
 * const - variável final, não alterável
 * Para importar classes, métodos e funções de outros arquivos é necessário criar um método. Para isso deve-se usar "npm init" no diretório do projeto
