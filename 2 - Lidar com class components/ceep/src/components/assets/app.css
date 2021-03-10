@@ -1,0 +1,19 @@
+.app-name {
+  font-size: 40px;
+  margin: 10px;
+  padding: 10px;
+  font-family: Helvetica;
+  font-weight: bold;
+}
+
+.content {
+  display: flex;
+}
+
+:root {
+  --primaria: #58a4b0;
+  --secundaria: #373f51;
+  --secundaria-ativa: #cccccc;
+  --fundo: #ffffff;
+  --fundo-detalhes: #ececec;
+}
